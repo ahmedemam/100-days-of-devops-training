@@ -1,0 +1,15 @@
+# Continuos Deployment / Continuos Integration 
+# virtualization ??  
+# Containers vs Images vs Virtual Machine
+# Containers [ Serverless ] or Functions as a Service
+# NOTES: everything is about speed
+# regardless of Operating Systems / Server / Setup
+# https://landscape.cncf.io/
+# Docker is not just a 'container runtime' it's been an ecosystem 
+# Docker on Mac/Windows doesn't support natively but it runs with virtual machine 
+# Linux VM ?? 
+  docker-machine 
+
+# docker image vs docker container
+# container vs  virtual machine 
+
