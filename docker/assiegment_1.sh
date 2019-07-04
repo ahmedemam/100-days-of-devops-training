@@ -16,3 +16,10 @@ docker run --name=httpd -p 8080:80 -d httpd
 docker search nginx 
 docker run --name=nginx -p 80:80 -d nginx
 
+# rename docker image 
+docker tag nginx new_nginx
+docker rmi nginx 
+
+# rename docker container 
+docker rename nginx new_nginx # for containers only
+
