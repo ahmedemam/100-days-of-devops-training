@@ -1,0 +1,13 @@
+version: '3.1'
+
+services: 
+  custom-drupal:
+    context: .
+    dockerfile: drupal.Dockerfile 
+    image: drupal
+
+  postgres:
+    
+
+volumes: 
+  - drupal-data:/var/lib/postgresql/data
